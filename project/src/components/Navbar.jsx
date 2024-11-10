@@ -19,16 +19,16 @@ const Navbar = () => {
   return (
     <div className='bg-[#BBC191] flex justify-between items-center h-24 max-w-[100%] mx-auto px-4 text-[#E0C9AC]'>
       {/* Logo */}
-      <h1 className='w-full text-3xl font-bold text-[#382828]'>CAPISTRANO DISTILLERY</h1>
+      <h1 className='gabarito-header w-full text-3xl font-bold text-[#382828]'>CAPISTRANO DISTILLERY</h1>
 
       {/* Nav Bar */}
-      <ul className='hidden md:flex'>
+      <ul className='dongle-regular hidden md:flex'>
         {navItems.map((item, index) => (
           <li
             key={item.id}
             className={`py-1.5 px-5 rounded-xl m-2 whitespace-nowrap cursor-pointer duration-300 ${
               index > 1 ? 'bg-[#382828] hover:bg-[#724F54]' : ''
-            } ${index < 2 ? 'bg-[#BBC191] hover:bg-[#cbd1a2] hover:underline text-[#382828]' : 'text-[#E0C9AC]'}
+            } ${index < 2 ? 'bg-[#BBC191] hover:bg-[#cbd1a2] hover:underline text-[#382828]' : 'text-[#E2E2E2]'}
             `}
           >
             {item.text}
@@ -36,12 +36,12 @@ const Navbar = () => {
         ))}
       </ul>
 
-      {/* Mobile Navigation Icon */}
+      {/* Mobile Menu Icon */}
       <div onClick={handleNav} className='block md:hidden text-[#382828]'>
         {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
       </div>
 
-      {/* Mobile Navigation Menu */}
+      {/* Mobile Nav */}
       <ul
         className={
           nav
@@ -50,13 +50,13 @@ const Navbar = () => {
         }
       >
         {/* Mobile Logo */}
-        <h1 className='w-full text-3xl font-bold text-[#382828] m-4'>CAPISTRANO DISTILLERY</h1>
+        <h1 className='gabarito-header w-full text-3xl font-bold text-[#382828] m-4'>CAPISTRANO DISTILLERY</h1>
 
-        {/* Mobile Navigation Items */}
+        {/* Mobile Nav Text */}
         {navItems.map(item => (
           <li
             key={item.id}
-            className='p-4 px-7 hover:bg-[#6A7339] text-[#382828] hover:text-[#E0C9AC] duration-300 cursor-pointer'
+            className='dongle-regular p-4 px-7 hover:bg-[#6A7339] text-[#382828] hover:text-[#E0C9AC] duration-300 cursor-pointer'
           >
             {item.text}
           </li>
