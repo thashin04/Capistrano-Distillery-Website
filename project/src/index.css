@@ -10,18 +10,22 @@ body{
   background-color: #382828;
   margin: 0;
 }
-ul,ol, p {
 .dongle-regular {
-  font-family: "Dongle", serif;
+  font-family: 'Dongle', serif;
   font-weight: 400;
   font-style: normal;
+  font-size: x-large;
 }
-}
- h1,h2,h3,h4,h5,h6{
+
 .gabarito-header {
-  font-family: "Gabarito", sans-serif;
+  font-family: 'Gabarito', sans-serif;
   font-optical-sizing: auto;
   font-weight: bold;
   font-style: normal;
 }
- }
+.gabarito-regular {
+  font-family: 'Gabarito', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
