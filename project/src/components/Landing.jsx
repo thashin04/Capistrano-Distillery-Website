@@ -1,7 +1,6 @@
 import React from 'react';
 import '../index.css';
 import landing from '../images/landing.png';
-import placeholder from '../images/placeholder.png';
 import landvid from '../images/landvid.mp4';
 
 const Landing = () => {
