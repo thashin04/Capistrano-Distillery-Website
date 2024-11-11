@@ -1,29 +1,38 @@
-
 import React from 'react';
 import '../index.css';
 import ScrollAnimation from 'react-animate-on-scroll';
-import "animate.css/animate.compat.css"
-
-
+import "animate.css/animate.compat.css";
+import FlipCard from './FlipCard';
 
 const Product = () => {
   return (
     <>
-      <div className="flex flex-col pt-12 pb-12 items-center lg:flex-row lg:w-3/4 mx-auto mt-8 gap-8">
-
-      <div className="bg-[#6A7339] flex flex-col pt-12 pb-12 items-center lg:flex-row lg:w-3/4 mx-auto mt-8 gap-8">
-
-        <div className="text-[#E0C9AC] lg:px-12 sm:px-8 space-y-8 flex flex-col items-center lg:items-start pt-0">
-        <ScrollAnimation animateIn="fadeIn">
-          <h1 className="gabarito-header text-center lg:text-left text-5xl font-bold">OUR STORY</h1>
-          <p className="dongle-regular max-w-md text-center lg:text-left">
-            Capistrano Distillery has been crafting Lambanog, a traditional Filipino distilled palm liquor, since 1983. Founded by Ireneo A. Capistrano, a chemical engineer, the distillery grew under the guidance of his family and gained recognition in the industry. Today, Capistrano Distillery continues to uphold its legacy, and in 2024, Quezon lambanog was named the 2nd best spirit in the world by TasteAtlas.com, bringing pride to the Philippines.
-          </p>
-          </ScrollAnimation>
-          <button className="duration-300 text-[#E0C9AC] gabarito-regular border border-[#E0C9AC] py-2 px-4 rounded-md hover:bg-[#E0C9AC] hover:text-[#3F3D35]">
-            LEARN MORE →
-          </button>
-        </div>
+      <div className="bg-[#6A7339] w-screen"> 
+        <div className="flex flex-col pt-12 pb-12 items-center lg:w-full mx-auto mt-8 gap-8">
+          <div className="text-[#E0C9AC] lg:px-12 sm:px-8 space-y-8 flex flex-col items-center lg:items-start pt-0">
+            <ScrollAnimation animateIn="fadeIn">
+              <h1 className="gabarito-header text-center lg:text-left text-5xl font-bold">OUR PRODUCTS</h1>
+            </ScrollAnimation>
+            <div className="flex flex-col lg:flex-row justify-center items-center w-full px-8 lg:px-0 pt-8 pb-8 gap-12">
+              <div className="w-full lg:w-auto flex flex-col items-center card-hover">
+                <FlipCard />
+                <p className="text-[#E0C9AC] text-lg mt-4 gabarito-regular">NAME</p>
+              </div>
+              <div className="w-full lg:w-auto flex flex-col items-center card-hover">
+                <FlipCard />
+                <p className="text-[#E0C9AC] text-lg mt-4 gabarito-regular">NAME</p>
+              </div>
+              <div className="w-full lg:w-auto flex flex-col items-center card-hover">
+                <FlipCard />
+                <p className="text-[#E0C9AC] text-lg mt-4 gabarito-regular">NAME</p>
+              </div>
+            </div>
+            <div className="w-full flex justify-center lg:justify-end">
+              <button className="duration-300 text-[#E0C9AC] gabarito-regular border border-[#E0C9AC] py-2 px-4 rounded-md hover:bg-[#E0C9AC] hover:text-[#3F3D35]">
+                SEE ALL PRODUCTS →
+              </button>
+            </div>
+          </div>
         </div>
       </div>
     </>

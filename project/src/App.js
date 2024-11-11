@@ -1,15 +1,13 @@
 import React from 'react';
 import './index.css'
 import Navbar from './components/Navbar';
-import Banner from './components/Banner'
-import Landing from './components/Landing'
+import Home from './pages/Home'
 
 function App() {
   return (
     <div>
       <Navbar />
-      <Banner />
-      <Landing />
+      <Home />
     </div>
   );
 }

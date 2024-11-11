@@ -18,7 +18,7 @@ const Landing = () => {
 
         <div className="text-[#E0C9AC] lg:px-12 sm:px-8 space-y-8 flex flex-col items-center lg:items-start pt-0">
         <ScrollAnimation animateIn="fadeIn">
-          <h1 className="gabarito-header text-center lg:text-left text-5xl font-bold">OUR STORY</h1>
+          <h1 className="pb-8 gabarito-header text-center lg:text-left text-5xl font-bold">OUR STORY</h1>
           <p className="dongle-regular max-w-md text-center lg:text-left">
             Capistrano Distillery has been crafting Lambanog, a traditional Filipino distilled palm liquor, since 1983. Founded by Ireneo A. Capistrano, a chemical engineer, the distillery grew under the guidance of his family and gained recognition in the industry. Today, Capistrano Distillery continues to uphold its legacy, and in 2024, Quezon lambanog was named the 2nd best spirit in the world by TasteAtlas.com, bringing pride to the Philippines.
           </p>

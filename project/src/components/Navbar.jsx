@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 import '../index.css';
+import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
+
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
