@@ -11,14 +11,12 @@ const Location = () => {
         <div className="flex flex-col lg:flex-row lg:justify-center pt-12 pb-12 items-center lg:w-full mx-auto mt-8 gap-12">
           {/* Text Section */}
           <div className="text-[#E0C9AC] lg:px-12 sm:px-8 space-y-8 flex flex-col items-center lg:items-start pt-0">
-            <ScrollAnimation animateIn="fadeIn">
-              <h1 className="gabarito-header text-center lg:text-left text-5xl font-bold">LOCATION</h1>
-              <p className='dongle-regular lg:pl-16 text-center lg:text-left'>
-                Barangay Wakas,<br />
-                Tayabas Quezon, Tayabas, 4327 Quezon Province,<br /> 
-                Philippines
-              </p>
-            </ScrollAnimation>
+          <ScrollAnimation animateIn="fadeIn">
+            <h1 className="gabarito-header text-center lg:text-left text-5xl font-bold">LOCATION</h1>
+            <p className='dongle-regular'>Barangay Wakas,<br />
+              Tayabas Quezon, Tayabas, 4327 Quezon Province,<br /> 
+              Philippines</p>
+              </ScrollAnimation>
           </div>
 
           {/* Map Image Section */}
