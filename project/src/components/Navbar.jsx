@@ -17,7 +17,7 @@ const Navbar = () => {
   ];
 
   return (
-    <div className='bg-[#BBC191] sticky top-0 flex justify-between items-center h-24 max-w-[100%] mx-auto px-4 text-[#E0C9AC]'>
+    <div className='bg-[#BBC191] z-50 sticky top-0 flex justify-between items-center h-24 max-w-[100%] mx-auto px-4 text-[#E0C9AC]'>
       {/* Logo */}
       <h1 className='gabarito-header w-full text-2xl font-bold text-[#382828]'>CAPISTRANO DISTILLERY</h1>
 

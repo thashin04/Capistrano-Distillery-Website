@@ -29,3 +29,18 @@ body{
   font-weight: normal;
   font-style: normal;
 }
+
+@media (min-width: 800px) {
+  .tablet\:flex-row {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .tablet\:w-2\/3 {
+    width: 66.666667%;
+  }
+
+  .tablet\:text-left {
+    text-align: left;
+  }
+}
