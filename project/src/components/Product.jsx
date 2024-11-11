@@ -1,20 +1,17 @@
+
 import React from 'react';
 import '../index.css';
-import landvid from '../images/landvid.mp4';
 import ScrollAnimation from 'react-animate-on-scroll';
 import "animate.css/animate.compat.css"
 
 
 
-const Landing = () => {
+const Product = () => {
   return (
     <>
       <div className="flex flex-col pt-12 pb-12 items-center lg:flex-row lg:w-3/4 mx-auto mt-8 gap-8">
-        <div className="rounded-lg relative w-1/2 sm:w-5/12 lg:w-5/12">
-          <video className='rounded-[20px]' controls autoPlay loop muted>
-            <source src={landvid} type="video/mp4"></source>
-          </video>
-        </div>
+
+      <div className="bg-[#6A7339] flex flex-col pt-12 pb-12 items-center lg:flex-row lg:w-3/4 mx-auto mt-8 gap-8">
 
         <div className="text-[#E0C9AC] lg:px-12 sm:px-8 space-y-8 flex flex-col items-center lg:items-start pt-0">
         <ScrollAnimation animateIn="fadeIn">
@@ -27,9 +24,10 @@ const Landing = () => {
             LEARN MORE →
           </button>
         </div>
+        </div>
       </div>
     </>
   );
 };
 
-export default Landing;
+export default Product;

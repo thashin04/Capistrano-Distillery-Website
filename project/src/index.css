@@ -29,6 +29,10 @@ body{
   font-weight: normal;
   font-style: normal;
 }
+video {
+  box-shadow: 35px -30px 0px 0px #E0C9AC;
+}
+
 
 @media (min-width: 800px) {
   .tablet\:flex-row {
