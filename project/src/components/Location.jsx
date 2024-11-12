@@ -12,7 +12,7 @@ const Location = () => {
           {/* Text Section */}
           <div className="text-[#E0C9AC] lg:px-12 sm:px-8 space-y-8 flex flex-col items-center lg:items-start pt-0">
           <ScrollAnimation animateIn="fadeIn">
-            <h1 className="gabarito-header text-center lg:text-left text-5xl font-bold">LOCATION</h1>
+            <h1 className="pb-10 gabarito-header text-center md:text-left lg:text-left text-5xl font-bold">LOCATION</h1>
             <p className='dongle-regular'>Barangay Wakas,<br />
               Tayabas Quezon, Tayabas, 4327 Quezon Province,<br /> 
               Philippines</p>

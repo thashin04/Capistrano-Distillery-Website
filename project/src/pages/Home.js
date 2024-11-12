@@ -4,6 +4,7 @@ import Banner from '../components/Banner'
 import Landing from '../components/Landing'
 import Product from '../components/Product'
 import Location from '../components/Location'
+import Partner from '../components/Partner'
 
 function Home() {
   return (
@@ -12,6 +13,7 @@ function Home() {
       <Landing />
       <Product />
       <Location />
+      <Partner />
     </div>
   );
 }

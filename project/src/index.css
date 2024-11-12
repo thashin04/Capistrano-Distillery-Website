@@ -87,6 +87,11 @@ video {
   font-weight: bold;
 }
 
+@media (min-width: 640px) {
+  video {
+    box-shadow: 25px -40px 0px 0px #E0C9AC;
+  }
+}
 
 @media (min-width: 800px) {
   .tablet\:flex-row {
@@ -102,3 +107,5 @@ video {
     text-align: left;
   }
 }
+
+
