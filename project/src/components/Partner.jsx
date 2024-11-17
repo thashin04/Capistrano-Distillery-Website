@@ -1,6 +1,5 @@
 import React from 'react';
 import '../index.css';
-import ScrollAnimation from 'react-animate-on-scroll';
 import "animate.css/animate.compat.css";
 
 const Partner = () => {

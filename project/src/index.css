@@ -87,6 +87,30 @@ video {
   font-weight: bold;
 }
 
+.partner-card {
+    width: 16rem;
+    height: 20rem;
+    perspective: 1000px;
+    margin: auto;
+  }
+  .partner-card-front{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .partner-card-front {
+    background-color: #E0C9AC;
+    color: #382828;
+  }
+
+
 @media screen and (max-width: 800px) {
   .tablet\:flex-row {
     display: flex;
