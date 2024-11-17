@@ -87,13 +87,7 @@ video {
   font-weight: bold;
 }
 
-@media (min-width: 640px) {
-  video {
-    box-shadow: 25px -40px 0px 0px #E0C9AC;
-  }
-}
-
-@media (min-width: 800px) {
+@media screen and (max-width: 800px) {
   .tablet\:flex-row {
     display: flex;
     flex-direction: row;
@@ -107,5 +101,18 @@ video {
     text-align: left;
   }
 }
+
+@media screen and (max-width: 640px) {
+  video {
+    box-shadow: 25px -30px 0px 0px #E0C9AC;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  video {
+    box-shadow: 15px -30px 0px 0px #E0C9AC;
+  }
+}
+
 
 
