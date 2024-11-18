@@ -1,5 +1,5 @@
 import React from 'react';
-import '../index.css'; // Make sure this points to your CSS file path
+import '../index.css';
 
 const FlipCard = () => {
   return (
