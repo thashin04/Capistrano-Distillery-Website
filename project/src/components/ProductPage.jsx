@@ -9,13 +9,13 @@ const ProductPage = () => {
 
   useEffect(() => {
     const checkScreenSize = () => {
-      setIsSmallScreen(window.innerWidth <= 768); // Set your breakpoint here (768px for tablets and smaller)
+      setIsSmallScreen(window.innerWidth <= 768); 
     };
 
-    checkScreenSize(); // Initial check
-    window.addEventListener('resize', checkScreenSize); // Listen for resize events
+    checkScreenSize(); 
+    window.addEventListener('resize', checkScreenSize); 
 
-    return () => window.removeEventListener('resize', checkScreenSize); // Cleanup listener on unmount
+    return () => window.removeEventListener('resize', checkScreenSize); 
   }, []);
 
   return (

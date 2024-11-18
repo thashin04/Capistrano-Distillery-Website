@@ -16,6 +16,18 @@ body{
   font-style: normal;
   font-size: x-large;
 }
+.dongle-footer {
+  font-family: 'Dongle', serif;
+  font-weight:lighter;
+  font-style: normal;
+  font-size: x-large;
+}
+.dongle-bold {
+  font-family: 'Dongle', serif;
+  font-weight:bolder;
+  font-style: normal;
+  font-size: xx-large;
+}
 
 .gabarito-header {
   font-family: 'Gabarito', sans-serif;
