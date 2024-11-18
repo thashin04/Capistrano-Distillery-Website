@@ -4,7 +4,7 @@ import "animate.css/animate.compat.css";
 import FlipCard from './FlipCard';
 
 
-const Product = () => {
+const ProductPage = () => {
   const [isSmallScreen, setIsSmallScreen] = useState(false);
 
   useEffect(() => {
@@ -50,4 +50,4 @@ const Product = () => {
   );
 };
 
-export default Product;
+export default ProductPage;

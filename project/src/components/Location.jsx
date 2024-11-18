@@ -17,7 +17,7 @@ const Location = () => {
           </div>
 
           {/* Map Image Section */}
-          <div className="relative max-sm:w-1/2 w-5/12 md:w-4/12 lg:order-last">
+          <div className="relative max-sm:w-7/12 w-5/12 md:w-4/12 lg:order-last">
             <img src={map} alt="map" />
           </div>
         </div>
