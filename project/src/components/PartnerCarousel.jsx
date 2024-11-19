@@ -2,7 +2,7 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import '../index.css';
+import './index.css';
 
 function CustomArrow(props) {
   const { className, style, onClick } = props;

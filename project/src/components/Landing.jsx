@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import '../index.css';
+import './index.css';
 import landvid from '../images/landvid.mp4';
 
 const Landing = () => {
