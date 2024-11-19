@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
-import '../index.css';
-import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
+import { Link } from 'react-router-dom'; 
+import './index.css';
 
 
 const Navbar = () => {
@@ -12,10 +12,10 @@ const Navbar = () => {
   };
 
   const navItems = [
-    { id: 1, text: 'ABOUT US' },
-    { id: 2, text: 'OUR PRODUCTS' },
-    { id: 3, text: 'CONTACT' },
-    { id: 4, text: 'BOOK AN APPOINTMENT' },
+    { id: 1, text: 'ABOUT US', path: '/about' }, // Add path for each nav item
+    { id: 2, text: 'OUR PRODUCTS', path: '/products' },
+    { id: 3, text: 'CONTACT', path: '/contact' },
+    { id: 4, text: 'BOOK AN APPOINTMENT', path: '/appointment' },
   ];
 
   return (
@@ -33,7 +33,7 @@ const Navbar = () => {
             } ${index < 2 ? 'px-1 bg-[#BBC191] hover:underline text-[#382828]' : 'text-[#E2E2E2]'}
             `}
           >
-            {item.text}
+            <Link to={item.path}>{item.text}</Link>
           </li>
         ))}
       </ul>

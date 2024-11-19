@@ -1,5 +1,5 @@
 import React from 'react';
-import '../index.css'
+//import './components/index.css';
 import Banner from '../components/Banner'
 import Landing from '../components/Landing'
 import Product from '../components/Product'

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import '../index.css';
+import './index.css';
 import "animate.css/animate.compat.css";
 import FlipCard from './FlipCard';
 
