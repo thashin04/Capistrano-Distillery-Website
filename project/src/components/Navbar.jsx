@@ -3,7 +3,6 @@ import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 import { Link } from 'react-router-dom'; 
 import './index.css';
 
-
 const Navbar = () => {
   const [nav, setNav] = useState(false);
 
@@ -11,13 +10,10 @@ const Navbar = () => {
     setNav(!nav);
   };
 
-  { /* prolly need to change the contact to be an email thing, 
-    i did one for the footer unless u want a page for owners emails and stores email 
-    with their pictures ykwim  */ }
   const navItems = [
-    { id: 1, text: 'ABOUT US', path: '/about' }, // Add path for each nav item
+    { id: 1, text: 'ABOUT US', path: '/about' },
     { id: 2, text: 'OUR PRODUCTS', path: '/products' },
-    { id: 3, text: 'CONTACT', path: '/contact' },
+    { id: 3, text: 'CONTACT', href: 'mailto:info@capistranodistillery.com' },
     { id: 4, text: 'BOOK AN APPOINTMENT', path: '/appointment' },
   ];
 
@@ -25,7 +21,7 @@ const Navbar = () => {
     <div className='bg-[#BBC191] z-50 sticky top-0 flex justify-between items-center h-24 max-w-[100%] mx-auto px-4 text-[#E0C9AC]'>
       {/* Logo */}
       <h1 className='gabarito-header w-full text-2xl font-bold text-[#382828]'>
-        <Link to="/">CAPISTRANO DISTILLERY</Link> {/* Use Link for the logo */}
+        <Link to="/">CAPISTRANO DISTILLERY</Link>
       </h1>
 
       {/* Nav Bar */}
@@ -38,7 +34,11 @@ const Navbar = () => {
             } ${index < 2 ? 'px-1 bg-[#BBC191] hover:underline text-[#382828]' : 'text-[#E2E2E2]'}
             `}
           >
-            <Link to={item.path}>{item.text}</Link>
+            {item.path ? (
+              <Link to={item.path}>{item.text}</Link>
+            ) : (
+              <a href={item.href}>{item.text}</a>
+            )}
           </li>
         ))}
       </ul>
@@ -65,7 +65,11 @@ const Navbar = () => {
             key={item.id}
             className='dongle-regular p-4 px-7 hover:bg-[#6A7339] text-[#382828] hover:text-[#E0C9AC] duration-300 cursor-pointer'
           >
-            {item.text}
+            {item.path ? (
+              <Link to={item.path}>{item.text}</Link>
+            ) : (
+              <a href={item.href}>{item.text}</a>
+            )}
           </li>
         ))}
       </ul>
