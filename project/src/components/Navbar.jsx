@@ -11,6 +11,9 @@ const Navbar = () => {
     setNav(!nav);
   };
 
+  { /* prolly need to change the contact to be an email thing, 
+    i did one for the footer unless u want a page for owners emails and stores email 
+    with their pictures ykwim  */ }
   const navItems = [
     { id: 1, text: 'ABOUT US', path: '/about' }, // Add path for each nav item
     { id: 2, text: 'OUR PRODUCTS', path: '/products' },
