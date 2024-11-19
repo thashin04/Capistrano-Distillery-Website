@@ -21,7 +21,9 @@ const Navbar = () => {
   return (
     <div className='bg-[#BBC191] z-50 sticky top-0 flex justify-between items-center h-24 max-w-[100%] mx-auto px-4 text-[#E0C9AC]'>
       {/* Logo */}
-      <h1 className='gabarito-header w-full text-2xl font-bold text-[#382828]'>CAPISTRANO DISTILLERY</h1>
+      <h1 className='gabarito-header w-full text-2xl font-bold text-[#382828]'>
+        <Link to="/">CAPISTRANO DISTILLERY</Link> {/* Use Link for the logo */}
+      </h1>
 
       {/* Nav Bar */}
       <ul className='dongle-regular hidden md:flex'>

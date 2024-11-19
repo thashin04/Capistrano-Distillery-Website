@@ -1,0 +1,146 @@
+[33mcommit 043b71a075310ef70b94e3b47fc51800119113fa[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: alaskasalad <caitlin.boxx@gmail.com>
+Date:   Mon Nov 18 20:19:31 2024 -0500
+
+    added basic stuff to about.js, changed index.css to src folder, navbar.jsx i added paths in the navItems & i added a linkto item.path by the Nav Bar section
+
+[33mcommit c76aba92f8d025a8b82d27e4ae059e6ef65afdaf[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: thashin04 <thashin2004@gmail.com>
+Date:   Mon Nov 18 16:18:53 2024 -0500
+
+    Update Product.js
+
+[33mcommit aa8d5e1dfc4d2aa8834b50a6b37a74534072e626[m
+Author: thashin04 <thashin2004@gmail.com>
+Date:   Mon Nov 18 12:45:19 2024 -0500
+
+    Create Product.js
+
+[33mcommit 1117646ca599f5d2839b707ae0624d6eac2eae25[m
+Merge: bd2fe9a caa5c55
+Author: Thashin <164907305+thashin04@users.noreply.github.com>
+Date:   Mon Nov 18 07:33:05 2024 -0500
+
+    Merge pull request #1 from thashin04/shin-branch
+    
+    Shin branch
+
+[33mcommit caa5c553af66c8ce5a7c35022a35c55500583c24[m[33m ([m[1;31morigin/shin-branch[m[33m)[m
+Author: thashin04 <thashin2004@gmail.com>
+Date:   Mon Nov 18 07:32:18 2024 -0500
+
+    finished navbar
+
+[33mcommit 174afb122e3e3fdd988e3d84ccffca57eaf7d2d6[m
+Author: thashin04 <thashin2004@gmail.com>
+Date:   Sun Nov 17 23:35:13 2024 -0500
+
+    finished carousel
+
+[33mcommit 92405cdf2e72539154d6a58d046d9d1fe6aa546b[m
+Author: thashin04 <thashin2004@gmail.com>
+Date:   Sun Nov 17 00:13:41 2024 -0500
+
+    Update package-lock.json
+
+[33mcommit a1dd6f1ea11b2c64524724f27ff23a830585fac2[m
+Author: thashin04 <thashin2004@gmail.com>
+Date:   Sun Nov 17 00:08:29 2024 -0500
+
+    carousel stuff + footer
+
+[33mcommit 8d2ca24a939c497e21f095abd7fb9719a678f052[m
+Author: thashin04 <thashin2004@gmail.com>
+Date:   Sat Nov 16 21:57:39 2024 -0500
+
+    i accidentally closed it
+
+[33mcommit 8f78fef4a5664a92bac4f621d88862c5309b0e0c[m
+Author: thashin04 <thashin2004@gmail.com>
+Date:   Sat Nov 16 19:43:33 2024 -0500
+
+    stuff earlier
+
+[33mcommit 61edcf351c59e81877cd84d2b0b4090e7e8bc28d[m
+Author: thashin04 <thashin2004@gmail.com>
+Date:   Tue Nov 12 10:57:19 2024 -0500
+
+    boom
+
+[33mcommit 36e3e99616654fd3d07aef2c8b0125ebd768ece2[m
+Author: thashin04 <thashin2004@gmail.com>
+Date:   Mon Nov 11 01:40:30 2024 -0500
+
+    goodnight
+
+[33mcommit bd2fe9a83d560def851ca2fab4020ac51449ed07[m
+Author: thashin04 <thashin2004@gmail.com>
+Date:   Mon Nov 11 01:26:58 2024 -0500
+
+    started location and small tweaks
+
+[33mcommit dfa5ca9ff6126ceede979cec7f9a759cb21811e7[m
+Author: thashin04 <thashin2004@gmail.com>
+Date:   Sun Nov 10 22:35:18 2024 -0500
+
+    sections!!
+
+[33mcommit b9bdc1865fa1e798ae8e49d5f2a995f6a8d54e13[m
+Author: thashin04 <thashin2004@gmail.com>
+Date:   Sun Nov 10 20:17:16 2024 -0500
+
+    no more place holder
+
+[33mcommit 87007fde47913a81720680d659401a0e7a6dca70[m
+Author: thashin04 <thashin2004@gmail.com>
+Date:   Sun Nov 10 20:17:05 2024 -0500
+
+    more about changes
+
+[33mcommit c984005538e2f9aec34262a698e4b5baa4b41f7a[m
+Author: thashin04 <thashin2004@gmail.com>
+Date:   Sun Nov 10 18:05:55 2024 -0500
+
+    about sec
+
+[33mcommit 2f269071b158463e702a5aaba5cf53af275bcbf6[m
+Author: thashin04 <thashin2004@gmail.com>
+Date:   Sun Nov 10 15:35:52 2024 -0500
+
+    Update Navbar.jsx
+
+[33mcommit cd9769d8735424c2daf00460a3a1487730d73048[m
+Author: thashin04 <thashin2004@gmail.com>
+Date:   Sat Nov 9 23:38:19 2024 -0500
+
+    gn
+
+[33mcommit 12616d33f2407e4ac9271249db6ced3492ddd8e0[m
+Author: thashin04 <thashin2004@gmail.com>
+Date:   Sat Nov 9 23:24:36 2024 -0500
+
+    our story place holder
+
+[33mcommit 66b4b2069d62ab18a40c6fd39722b7c624c3aa11[m
+Author: thashin04 <thashin2004@gmail.com>
+Date:   Sat Nov 9 22:34:04 2024 -0500
+
+    banner img
+
+[33mcommit 84055d8486f8dad662fb58f6233f0c7f5923d991[m
+Author: thashin04 <thashin2004@gmail.com>
+Date:   Sat Nov 9 20:47:55 2024 -0500
+
+    nav bar things
+
+[33mcommit 025b3a445fe7989f7eabc5b06aca73a246b6148d[m
+Author: thashin04 <thashin2004@gmail.com>
+Date:   Sat Nov 9 19:55:56 2024 -0500
+
+    stuff
+
+[33mcommit 176128b7cacd22c823922f76b957e1fda86cc73c[m
+Author: thashin04 <thashin2004@gmail.com>
+Date:   Sat Nov 9 19:36:04 2024 -0500
+
+    Initial commit
