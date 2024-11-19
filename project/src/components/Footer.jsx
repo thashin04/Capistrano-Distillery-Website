@@ -1,5 +1,4 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 
 import {
@@ -32,7 +31,7 @@ const Footer = () => {
           <div className='flex items-center space-x-4 mb-6 md:mb-0'>
             <h6 className='font-medium pr-8'>Follow us:</h6>
             {/* Icons side by side next to heading */}
-            <a href="https://m.facebook.com/capistranodistillery/" target="_blank" rel="noopener noreferrer">
+            <a href="https://m.facebook.com/capistranodistillery/" target="_blank" rel="noopener noreferrer" >
               <FaFacebookSquare size={30} />
               </a>
               <a href="https://www.instagram.com/capistranodistillery?igsh=MTM1MGM1YXRiZ2F2ZQ==" target="_blank" rel="noopener noreferrer">
@@ -44,7 +43,8 @@ const Footer = () => {
             <li>
               <a
                 href="mailto:capistrano_distillery@yahoo.com"
-                className="text-white hover:teext-blue-600 underline"
+                className="text-white hover:text-blue-600 underline"
+
               >
               capistrano_distillery@yahoo.com
               </a>

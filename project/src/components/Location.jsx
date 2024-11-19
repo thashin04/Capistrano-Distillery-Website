@@ -1,7 +1,6 @@
 import React from 'react';
 import './index.css';
 import "animate.css/animate.compat.css";
-import map from '../images/map.png'
 
 const Location = () => {
   return (
