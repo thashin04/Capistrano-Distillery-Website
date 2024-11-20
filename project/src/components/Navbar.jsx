@@ -11,10 +11,11 @@ const Navbar = () => {
   };
 
   const navItems = [
-    { id: 1, text: 'ABOUT US', path: '/about' },
-    { id: 2, text: 'OUR PRODUCTS', path: '/products' },
-    { id: 3, text: 'CONTACT', href: 'mailto:info@capistranodistillery.com' },
-    { id: 4, text: 'BOOK AN APPOINTMENT', path: '/appointment' },
+    { id: 1, text: 'HOME', path: '/' },
+    { id: 2, text: 'ABOUT US', path: '/about' },
+    { id: 3, text: 'OUR PRODUCTS', path: '/products' },
+    { id: 4, text: 'CONTACT', href: 'mailto:info@capistranodistillery.com' },
+    { id: 5, text: 'BOOK AN APPOINTMENT', path: '/appointment' },
   ];
 
   return (
@@ -30,8 +31,8 @@ const Navbar = () => {
           <li
             key={item.id}
             className={`py-1 px-5 rounded-xl m-2 whitespace-nowrap cursor-pointer duration-300 ${
-              index > 1 ? 'bg-[#382828] hover:bg-[#724F54]' : ''
-            } ${index < 2 ? 'px-1 bg-[#BBC191] hover:underline text-[#382828]' : 'text-[#E2E2E2]'}
+              index > 2 ? 'bg-[#382828] hover:bg-[#724F54]' : ''
+            } ${index < 3 ? 'px-1 bg-[#BBC191] hover:underline text-[#382828]' : 'text-[#E2E2E2]'}
             `}
           >
             {item.path ? (

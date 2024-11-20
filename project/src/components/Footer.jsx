@@ -43,7 +43,7 @@ const Footer = () => {
             <li>
               <a
                 href="mailto:capistrano_distillery@yahoo.com"
-                className="text-white hover:text-blue-600 underline"
+                className="text-white hover:underline"
 
               >
               capistrano_distillery@yahoo.com
