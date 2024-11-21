@@ -1,6 +1,8 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import './index.css';
 import landvid from '../images/landvid.mp4';
+import { Link } from 'react-router-dom';
+
 
 const Landing = () => {
 
@@ -17,9 +19,11 @@ const Landing = () => {
             <p className="max-md:mx-14 dongle-regular max-w-md text-left">
               Capistrano Distillery has been crafting Lambanog, a traditional Filipino distilled palm liquor, since 1983. Founded by Ireneo A. Capistrano, a chemical engineer, the distillery grew under the guidance of his family and gained recognition in the industry. Today, Capistrano Distillery continues to uphold its legacy, and in 2024, Quezon lambanog was named the 2nd best spirit in the world by TasteAtlas.com, bringing pride to the Philippines.
             </p>
+        <Link to="/About">
         <button className="duration-300 text-[#E0C9AC] gabarito-regular border border-[#E0C9AC] py-2 px-4 rounded-md hover:bg-[#E0C9AC] hover:text-[#3F3D35]">
           LEARN MORE →
         </button>
+        </Link>
       </div>
     </div>
   );
