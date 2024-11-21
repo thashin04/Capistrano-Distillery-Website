@@ -50,12 +50,17 @@ function PartnerCarousel() {
 
   return (
     <div className="bg-[#F0ECE1] w-full m-0 pb-12">
+      <style>{"\
+        .slick-dots{\
+          transform: translateY(-10px);\
+        }\
+      "}</style>
       <div className="w-3/4 mx-auto">
         <Slider {...settings}>
           {data.map((d) => (
             <div
               key={d.name}
-              className="mt-20 mb-20 flex justify-center items-center"
+              className="mt-20 mb-14 flex justify-center items-center"
             >
               <div className="partner-card">
                 <div className="partner-card-front dongle-regular">

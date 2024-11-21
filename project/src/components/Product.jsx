@@ -65,7 +65,7 @@ const Product = () => {
 
   return (
     <div className="bg-[#6A7339] w-screen"> 
-      <div className="flex flex-col pt-12 pb-12 items-center lg:w-full mx-auto mt-8 gap-8">
+      <div className="flex flex-col pt-12 pb-0 items-center lg:w-full mx-auto mt-8 gap-8">
         <div className="text-[#FAF5F0] lg:px-12 sm:px-8 space-y-8 flex flex-col items-center lg:items-start pt-0">
           
             <h1 className="gabarito-header text-center lg:text-left max-sm:text-3xl text-5xl font-bold">OUR PRODUCTS</h1>
@@ -88,6 +88,11 @@ const Product = () => {
       </div>
 
       <div className='max-lg:contents lg:hidden'>
+      <style>{"\
+        .slick-dots{\
+          transform: translateY(-10px);\
+        }\
+      "}</style>
       <div className="w-3/4 mx-auto">
         <Slider {...settings}>
           {data.map((d) => (
