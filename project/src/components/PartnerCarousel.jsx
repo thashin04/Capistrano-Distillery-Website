@@ -49,7 +49,7 @@ function PartnerCarousel() {
   };
 
   return (
-    <div className="bg-[#F0ECE1] w-full m-0">
+    <div className="bg-[#F0ECE1] w-full m-0 pb-12">
       <div className="w-3/4 mx-auto">
         <Slider {...settings}>
           {data.map((d) => (
