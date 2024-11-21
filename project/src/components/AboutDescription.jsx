@@ -5,7 +5,7 @@ import aboutplaceholder from '../images/AboutPlaceholder.png';
 const AboutDescription = () => {
   return (
     <div className="text-[#E0C9AC] flex flex-col lg:flex-row items-center justify-center gap-8 pt-12 pb-12 mx-auto lg:w-3/4 mt-8">
-      <div className="flex flex-col gap-8 lg:max-w-[50%] max-lg:mx-4">
+      <div className="flex flex-col gap-8 lg:max-w-[50%]">
         <h1 className="pb-4 text-5xl font-bold gabarito-header text-center lg:text-left max-sm:text-3xl  md:pb-4">
           BACKGROUND
         </h1>
