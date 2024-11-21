@@ -7,7 +7,7 @@ const Partner = () => {
     <>
       <div className='m-0 w-full'> 
         <div className=" first-line:flex flex-col lg:flex-row lg:justify-center pt-12 items-center lg:w-full mx-auto mt-8">
-          <div className="text-[#E0C9AC] max-sm:px-8 flex flex-col items-center pt-0">
+          <div className="text-[#FAF5F0] max-sm:px-8 flex flex-col items-center pt-0">
             <h1 className="bg-[#6A7339] p-8 w-screen text-center gabarito-header text-5xl font-bold">OUR PARTNERS</h1>
           </div>
         </div>

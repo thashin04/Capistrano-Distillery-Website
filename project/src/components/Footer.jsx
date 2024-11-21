@@ -31,10 +31,10 @@ const Footer = () => {
           <div className='flex items-center space-x-4 mb-6 md:mb-0'>
             <h6 className='font-medium pr-8'>Follow us:</h6>
             {/* Icons side by side next to heading */}
-            <a href="https://m.facebook.com/capistranodistillery/" target="_blank" rel="noopener noreferrer" >
+            <a href="https://m.facebook.com/capistranodistillery/" target="_self" rel="noopener noreferrer" alt="Facebook" >
               <FaFacebookSquare size={30} />
               </a>
-              <a href="https://www.instagram.com/capistranodistillery?igsh=MTM1MGM1YXRiZ2F2ZQ==" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.instagram.com/capistranodistillery?igsh=MTM1MGM1YXRiZ2F2ZQ==" target="_self" rel="noopener noreferrer" alt="Instagram">
               <FaInstagram size={30} />
               </a>
           </div>

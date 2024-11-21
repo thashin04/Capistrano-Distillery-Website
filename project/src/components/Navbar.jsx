@@ -19,20 +19,20 @@ const Navbar = () => {
   ];
 
   return (
-    <div className='bg-[#BBC191] z-50 sticky top-0 flex justify-between items-center h-24 max-w-[100%] mx-auto px-4 text-[#E0C9AC]'>
+    <div className='bg-[#BBC191] z-50 sticky top-0 flex justify-between items-center h-24 w-full mx-auto px-4 text-[#E0C9AC]'>
       {/* Logo */}
-      <h1 className='gabarito-header w-full text-2xl font-bold text-[#382828]'>
+      <h1 className='gabarito-normal gabarito-small pr-8 w-full text-2xl font-bold text-[#382828]'>
         <Link to="/">CAPISTRANO DISTILLERY</Link>
       </h1>
 
       {/* Nav Bar */}
-      <ul className='dongle-regular hidden md:flex'>
+      <ul className='dongle-regular dongle-small hidden md:flex'>
         {navItems.map((item, index) => (
           <li
             key={item.id}
-            className={`py-1 px-5 rounded-xl m-2 whitespace-nowrap cursor-pointer duration-300 ${
-              index > 2 ? 'bg-[#382828] hover:bg-[#724F54]' : ''
-            } ${index < 3 ? 'px-1 bg-[#BBC191] hover:underline text-[#382828]' : 'text-[#E2E2E2]'}
+            className={`py-1 px-5 rounded-xl my-2 mx-1 max-md: whitespace-nowrap cursor-pointer duration-300 ${
+              index > 2 ? 'bg-[#382828] lg:mx-2 hover:bg-[#724F54]' : ''
+            } ${index < 3 ? 'lg:px-5 md:px-2 px-1 bg-[#BBC191] hover:underline text-[#382828]' : 'text-[#FAF5F0]'}
             `}
           >
             {item.path ? (
@@ -64,7 +64,7 @@ const Navbar = () => {
         {navItems.map(item => (
           <li
             key={item.id}
-            className='dongle-regular p-4 px-7 hover:bg-[#6A7339] text-[#382828] hover:text-[#E0C9AC] duration-300 cursor-pointer'
+            className='dongle-regular dongle-small p-4 px-7 hover:bg-[#6A7339] text-[#382828] hover:text-[#E0C9AC] duration-300 cursor-pointer'
           >
             {item.path ? (
               <Link to={item.path}>{item.text}</Link>

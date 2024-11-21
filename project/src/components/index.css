@@ -41,6 +41,8 @@ body{
   font-weight: normal;
   font-style: normal;
 }
+
+
 video {
   box-shadow: 35px -30px 0px 0px #E0C9AC;
 }
@@ -140,6 +142,20 @@ video {
 }
 
 
+@media screen and (max-width:850px) {
+  .gabarito-small {
+    font-family: 'Gabarito', sans-serif;
+    font-size:larger;
+    font-weight:bold;
+    font-style: normal;
+  }
+  .dongle-small {
+    font-family: 'Dongle', serif;
+    font-weight: 400;
+    font-style: bold;
+    font-size: larger;
+  }
+}
 
 @media screen and (max-width: 800px) {
   .tablet\:flex-row {
@@ -165,6 +181,18 @@ video {
 @media screen and (max-width: 400px) {
   video {
     box-shadow: 15px -30px 0px 0px #E0C9AC;
+  }
+  .gabarito-regular {
+    font-family: 'Gabarito', sans-serif;
+    font-size: large;
+    font-weight: normal;
+    font-style: normal;
+  }
+  .dongle-regular {
+    font-family: 'Dongle', serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: large;
   }
 }
 
