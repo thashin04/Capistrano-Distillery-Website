@@ -15,8 +15,11 @@ const Footer = () => {
       <div className='lg:col-span-2 flex flex-col md:flex-row justify-between'>
         <div className='mb-6 md:mb-0'>
           <ul>
-
-          <Link to="/About" className="hover:underline text-white-600">
+            <Link to="/" className="hover:underline text-white-600">
+                Home
+            </Link>
+            <br></br>
+            <Link to="/About" className="hover:underline text-white-600">
                 About Us
             </Link>
             <br></br>
@@ -28,29 +31,41 @@ const Footer = () => {
           </ul> 
         </div>
         <div>
-          <div className='flex flex-row items-center space-x-4 mb-6 md:mb-0'>
-            <h6 className='font-medium pr-8'>Follow us:</h6>
-            {/* Icons side by side next to heading */}
-            <a href="https://m.facebook.com/capistranodistillery/" target="_self" rel="noopener noreferrer" alt="Facebook" >
-              <FaFacebookSquare size={30} />
-              </a>
-              <a href="https://www.instagram.com/capistranodistillery?igsh=MTM1MGM1YXRiZ2F2ZQ==" target="_self" rel="noopener noreferrer" alt="Instagram">
-              <FaInstagram size={30} />
-              </a>
-          </div>
-          <ul className='mt-4 text-left'>
-          <li>For inquiries, please contact:</li>
-            <li>
-              <a
-                href="mailto:capistrano_distillery@yahoo.com"
-                className="text-white hover:underline"
+  <div className='mb-6 md:mb-0'>
+    <h6 className='font-medium'>Follow us:</h6>
+    {/* Icons side by side, below "Follow us" */}
+    <div className='flex flex-row space-x-4 mt-2'>
+      <a
+        href="https://m.facebook.com/capistranodistillery/"
+        target="_self"
+        rel="noopener noreferrer"
+        alt="Facebook"
+      >
+        <FaFacebookSquare size={30} />
+      </a>
+      <a
+        href="https://www.instagram.com/capistranodistillery?igsh=MTM1MGM1YXRiZ2F2ZQ=="
+        target="_self"
+        rel="noopener noreferrer"
+        alt="Instagram"
+      >
+        <FaInstagram size={30} />
+      </a>
+    </div>
+  </div>
+  <ul className='mt-4 text-left'>
+    <li>For inquiries, please contact:</li>
+    <li>
+      <a
+        href="mailto:capistrano_distillery@yahoo.com"
+        className="text-white hover:underline"
+      >
+        capistrano_distillery@yahoo.com
+      </a>
+    </li>
+  </ul>
+</div>
 
-              >
-              capistrano_distillery@yahoo.com
-              </a>
-            </li>
-          </ul>
-        </div>
       </div>
     </div>
   );

@@ -1,14 +1,20 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
-import { Link } from 'react-router-dom'; 
+import { Link, useLocation } from 'react-router-dom'; 
 import './index.css';
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
+  const location = useLocation(); // Hook to access the current location
 
   const handleNav = () => {
     setNav(!nav);
   };
+
+  // Scroll to top on location change
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scroll to top
+  }, [location]);
 
   const navItems = [
     { id: 1, text: 'HOME', path: '/' },
