@@ -5,7 +5,7 @@ import './index.css';
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
-  const location = useLocation(); // Hook to access the current location
+  const location = useLocation();
 
   const handleNav = () => {
     setNav(!nav);
@@ -13,7 +13,7 @@ const Navbar = () => {
 
   // Scroll to top on location change
   useEffect(() => {
-    window.scrollTo(0, 0); // Scroll to top
+    window.scrollTo(0, 0);
   }, [location]);
 
   const navItems = [
@@ -31,7 +31,6 @@ const Navbar = () => {
         <Link to="/">CAPISTRANO DISTILLERY</Link>
       </h1>
 
-      {/* Nav Bar */}
       <ul className='dongle-regular dongle-small hidden md:flex'>
         {navItems.map((item, index) => (
           <li
@@ -57,26 +56,22 @@ const Navbar = () => {
 
       {/* Mobile Nav */}
       <ul
-        className={
-          nav
-            ? 'fixed md:hidden left-0 top-0 w-[60%] h-full border-r color-[#382828] bg-[#BBC191] ease-in-out duration-500'
-            : 'ease-in-out w-[60%] duration-500 fixed top-0 bottom-0 left-[-100%]'
-        }
+        className={`fixed md:hidden top-0 left-0 h-full w-[60%] bg-[#BBC191] border-r text-[#382828] ease-in-out duration-500 transform ${
+          nav ? 'translate-x-0' : '-translate-x-full'
+        }`}
       >
-        {/* Mobile Logo */}
         <h1 className='gabarito-header w-full text-2xl font-bold text-[#382828] m-4'>CAPISTRANO DISTILLERY</h1>
 
         {/* Mobile Nav Text */}
         {navItems.map(item => (
-          <li
-            key={item.id}
-            className='dongle-regular dongle-small p-4 px-7 hover:bg-[#6A7339] text-[#382828] hover:text-[#E0C9AC] duration-300 cursor-pointer'
-          >
-            {item.path ? (
-              <Link to={item.path}>{item.text}</Link>
-            ) : (
-              <a href={item.href}>{item.text}</a>
-            )}
+          <li key={item.id} className='dongle-regular dongle-small'>
+            <a
+              href={item.path ? item.path : item.href}
+              onClick={handleNav} 
+              className='block w-full p-4 px-7 text-left hover:bg-[#6A7339] text-[#382828] hover:text-[#E0C9AC] duration-300 cursor-pointer'
+            >
+              {item.text}
+            </a>
           </li>
         ))}
       </ul>

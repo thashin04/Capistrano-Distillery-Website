@@ -1,6 +1,6 @@
 import React from 'react';
 //import './components/index.css';
-import Banner from '../components/Banner'
+import HomeBanner from '../components/Banner'
 import Landing from '../components/Landing'
 import Product from '../components/Product'
 import Location from '../components/Location'
@@ -11,7 +11,7 @@ import Footer from '../components/Footer'
 function Home() {
   return (
     <div>
-      <Banner />
+      <HomeBanner />
       <Landing />
       <Product />
       <Location />

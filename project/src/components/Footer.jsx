@@ -33,7 +33,6 @@ const Footer = () => {
         <div>
   <div className='mb-6 md:mb-0'>
     <h6 className='font-medium'>Follow us:</h6>
-    {/* Icons side by side, below "Follow us" */}
     <div className='flex flex-row space-x-4 mt-2'>
       <a
         href="https://m.facebook.com/capistranodistillery/"

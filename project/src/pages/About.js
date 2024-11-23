@@ -1,5 +1,5 @@
 import React from 'react';
-import Banner from '../components/AboutBanner';
+import AboutBanner from '../components/AboutBanner';
 import AboutDescription from '../components/AboutDescription'
 import Footer from '../components/Footer'
 import PhilippinesToday from '../components/PhilippinesToday';
@@ -11,7 +11,7 @@ import CustomerReviews from '../components/CustomerReviews'
 function About() {
   return (
     <div>
-      <Banner />
+      <AboutBanner />
       <AboutDescription />
       <PhilippinesToday /> 
       <History />
