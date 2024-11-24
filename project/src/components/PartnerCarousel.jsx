@@ -71,14 +71,19 @@ function PartnerCarousel() {
               className="mt-20 mb-14 flex justify-center items-center"
             >
               <div className="">
-                <div className=" dongle-regular ">
+                <a 
+                  href={d.link} 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="dongle-regular"
+                >
                   <img 
                     src={d.image} 
                     alt={`Partner ${d.name}`} 
                     className="rounded-2xl max-md:w-2/3 md:w-3/4 lg:w-3/4" 
                     style={{ height: "auto", objectFit: "cover", margin: "auto" }}
                   />
-                </div>
+                </a>
               </div>
             </div>
           ))}
@@ -89,14 +94,14 @@ function PartnerCarousel() {
 }
 
 const data = [
-  { name: 1, image: logo1 },
-  { name: 2, image: logo2 },
-  { name: 3, image: logo3 },
-  { name: 4, image: logo4 },
-  { name: 5, image: logo5 },
-  { name: 6, image: logo6 },
-  { name: 7, image: logo7 },
-  { name: 8, image: logo8 },
+  { name: 1, image: logo1, link:"https://tayabas.gov.ph/" },
+  { name: 2, image: logo2, link:"https://pca.gov.ph/index.php/10-news" },
+  { name: 3, image: logo3, link:"https://www.kulturafilipino.com/" },
+  { name: 4, image: logo4},
+  { name: 5, image: logo5, link:"https://m.facebook.com/tourismoftayabascity/videos/" },
+  { name: 6, image: logo6, link:"https://www.fda.gov.ph/"},
+  { name: 7, image: logo7, link:"https://www.dti.gov.ph/" },
+  { name: 8, image: logo8, link:"https://www.dost.gov.ph/" },
 ];
 
 

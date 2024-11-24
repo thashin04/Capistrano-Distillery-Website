@@ -69,8 +69,8 @@ video {
   padding: 80px;
 }
 .flip-card {
-  width: 16rem;
-  height: 20rem;
+  width: 15rem;
+  height: 21rem;
   perspective: 1000px;
   margin: auto;
 }
@@ -89,7 +89,7 @@ video {
   width: 100%;
   height: 100%;
   backface-visibility: hidden;
-  border-radius: 0.75rem;
+  border-radius: 1.75rem;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   display: flex;
   align-items: center;
@@ -97,12 +97,10 @@ video {
 }
 
 .flip-card-front {
-  background-color: #E0C9AC;
   color: #382828;
 }
 
 .flip-card-back {
-  background-color: #382828;
   color: #E0C9AC;
   transform: rotateY(180deg);
 }
