@@ -26,7 +26,7 @@ const Footer = () => {
             <Link to="/Products" className="hover:underline text-white-600">
                 Our Products
             </Link>
-            <li className='text-md'>Book an Appointment</li>
+            <li className='text-md hover:underline'><a href='https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ2EKUx-8A-JzzpFAFmdMrrvZst8L7pGjl_a1QG4kG2Mh4-1eb4bkowUsSwXwoc2gnE2f8D6WNjc' target='blank' alt="calendar-booking">Book an Appointment</a></li>
 
           </ul> 
         </div>
@@ -36,7 +36,7 @@ const Footer = () => {
     <div className='flex flex-row space-x-4 mt-2'>
       <a
         href="https://m.facebook.com/capistranodistillery/"
-        target="_self"
+        target="_blank"
         rel="noopener noreferrer"
         alt="Facebook"
       >
@@ -44,7 +44,7 @@ const Footer = () => {
       </a>
       <a
         href="https://www.instagram.com/capistranodistillery?igsh=MTM1MGM1YXRiZ2F2ZQ=="
-        target="_self"
+        target="_blank"
         rel="noopener noreferrer"
         alt="Instagram"
       >

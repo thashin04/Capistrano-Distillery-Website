@@ -21,7 +21,7 @@ const Navbar = () => {
     { id: 2, text: 'ABOUT US', path: '/about' },
     { id: 3, text: 'OUR PRODUCTS', path: '/products' },
     { id: 4, text: 'CONTACT', href: 'mailto:info@capistranodistillery.com' },
-    { id: 5, text: 'BOOK AN APPOINTMENT', path: '/appointment' },
+    { id: 5, text: 'BOOK AN APPOINTMENT', href: 'https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ2EKUx-8A-JzzpFAFmdMrrvZst8L7pGjl_a1QG4kG2Mh4-1eb4bkowUsSwXwoc2gnE2f8D6WNjc' },
   ];
 
   return (
@@ -43,11 +43,18 @@ const Navbar = () => {
             {item.path ? (
               <Link to={item.path}>{item.text}</Link>
             ) : (
-              <a href={item.href}>{item.text}</a>
+              <a 
+                href={item.href} 
+                target={item.id > 3 ? "_blank" : "_self"} 
+                rel={item.id > 3 ? "noopener noreferrer" : undefined}
+              >
+                {item.text}
+              </a>
             )}
           </li>
         ))}
       </ul>
+
 
       {/* Mobile Menu Icon */}
       <div onClick={handleNav} className='block md:hidden text-[#382828]'>
@@ -67,6 +74,8 @@ const Navbar = () => {
           <li key={item.id} className='dongle-regular dongle-small'>
             <a
               href={item.path ? item.path : item.href}
+              target={item.id > 3 ? "_blank" : "_self"}
+              rel={item.id > 3 ? "noopener noreferrer" : undefined}
               onClick={handleNav} 
               className='block w-full p-4 px-7 text-left hover:bg-[#6A7339] text-[#382828] hover:text-[#E0C9AC] duration-300 cursor-pointer'
             >
@@ -74,6 +83,7 @@ const Navbar = () => {
             </a>
           </li>
         ))}
+
       </ul>
     </div>
   );
