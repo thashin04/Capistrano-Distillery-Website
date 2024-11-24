@@ -8,7 +8,7 @@ const Location = () => {
       <div className="w-screen"> 
         <div className="flex flex-col lg:flex-row lg:justify-center pt-12 pb-12 items-center lg:w-full mx-auto mt-8 gap-12">
           <div className="text-[#E0C9AC] lg:px-12 sm:px-8 space-y-8 flex flex-col items-center lg:items-start pt-0">
-            <h1 className="lg:pb-10 gabarito-header text-center md:text-left lg:text-left text-5xl font-bold max-sm:text-3xl">LOCATION</h1>
+            <h1 className="lg:pb-2 gabarito-header text-center md:text-left lg:text-left text-5xl font-bold max-sm:text-3xl">LOCATION</h1>
             <p className='dongle-regular'>Barangay Wakas, Tayabas City, <br />
             Quezon Province, 4327,<br /> 
               Philippines</p>

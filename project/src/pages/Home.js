@@ -3,6 +3,7 @@ import React from 'react';
 import HomeBanner from '../components/Banner'
 import Landing from '../components/Landing'
 import Product from '../components/Product'
+import BestSpiritBanner from '../components/Quote'
 import Location from '../components/Location'
 import Partner from '../components/Partner'
 import PartnerCarousel from '../components/PartnerCarousel';
@@ -14,6 +15,7 @@ function Home() {
       <HomeBanner />
       <Landing />
       <Product />
+      <BestSpiritBanner />
       <Location />
       <Partner />
       <PartnerCarousel />

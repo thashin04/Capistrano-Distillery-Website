@@ -3,6 +3,14 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import './index.css';
+import logo1 from '../images/logo1.png';
+import logo2 from '../images/logo2.png';
+import logo3 from '../images/logo3.png';
+import logo4 from '../images/logo4.png';
+import logo5 from '../images/logo5.png';
+import logo6 from '../images/logo6.png';
+import logo7 from '../images/logo7.png';
+import logo8 from '../images/logo8.png';
 
 function CustomArrow(props) {
   const { className, style, onClick } = props;
@@ -62,9 +70,14 @@ function PartnerCarousel() {
               key={d.name}
               className="mt-20 mb-14 flex justify-center items-center"
             >
-              <div className="partner-card">
-                <div className="partner-card-front dongle-regular">
-                  <div>Placeholder Image</div>
+              <div className="">
+                <div className=" dongle-regular ">
+                  <img 
+                    src={d.image} 
+                    alt={`Partner ${d.name}`} 
+                    className="rounded-2xl max-md:w-2/3 md:w-3/4 lg:w-3/4" 
+                    style={{ height: "auto", objectFit: "cover", margin: "auto" }}
+                  />
                 </div>
               </div>
             </div>
@@ -76,11 +89,15 @@ function PartnerCarousel() {
 }
 
 const data = [
-  { name: 1 },
-  { name: 2 },
-  { name: 3 },
-  { name: 4 },
-  { name: 5 },
+  { name: 1, image: logo1 },
+  { name: 2, image: logo2 },
+  { name: 3, image: logo3 },
+  { name: 4, image: logo4 },
+  { name: 5, image: logo5 },
+  { name: 6, image: logo6 },
+  { name: 7, image: logo7 },
+  { name: 8, image: logo8 },
 ];
+
 
 export default PartnerCarousel;

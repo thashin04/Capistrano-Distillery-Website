@@ -28,6 +28,20 @@ body{
   font-style: normal;
   font-size: xx-large;
 }
+.gabarito-bigger {
+  font-family: 'Gabarito', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-size: xx-large;
+}
+.gabarito-big {
+  font-family: 'Gabarito', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-size: x-large;
+}
 
 .gabarito-header {
   font-family: 'Gabarito', sans-serif;
@@ -49,7 +63,11 @@ video {
 .card-hover {
   transition: transform 0.3s ease, box-shadow 0.3s ease 0.3s;
 }
-
+.border-green{
+  border-width: 30px;
+  border-radius: 50px;
+  padding: 80px;
+}
 .flip-card {
   width: 16rem;
   height: 20rem;
@@ -133,6 +151,23 @@ video {
   font-size: 10px;
 }
 
+.divider {
+  display: flex;
+  align-items: center;
+  color: #FAF5F0;
+}
+
+.divider::before, .divider::after {
+  flex: 1;
+  content: '';
+  padding: 2px;
+  background-color: #FAF5F0;
+  margin:1rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  border-radius:100px;
+}
+
 
 @media screen and (min-width:1050px) {
   .card-hover:hover {
@@ -142,7 +177,7 @@ video {
     transform: rotateY(180deg);
   }
 }
-@media screen and (max-width:1050px) {
+@media screen and (max-width:2560px) {
   .flip-card-front,
 .flip-card-back {
   cursor:pointer;
@@ -185,6 +220,28 @@ video {
   video {
     box-shadow: 25px -30px 0px 0px #E0C9AC;
   }
+  .divider {
+    display: flex;
+    align-items: center;
+    color: #FAF5F0;
+  }
+  
+  .divider::before, .divider::after {
+    flex: 1;
+    content: '';
+    padding: 2px;
+    background-color: #FAF5F0;
+    margin:1rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    border-radius:100px;
+  }
+  .border-green{
+    border-width: 20px;
+    border-radius: 40px;
+    padding: 40px;
+  }
+  
 }
 
 @media screen and (max-width: 400px) {

@@ -22,7 +22,6 @@ const ProductPage = () => {
 
     return () => window.removeEventListener('resize', updateColumns); // Cleanup
   }, []);
-
   const section1Cards = Array.from({ length: 6 }).map((_, index) => (
     <div key={`section1-${index}`} className="card-hover text-center">
       <div className="flex flex-col items-center">
@@ -60,48 +59,63 @@ const ProductPage = () => {
 
   return (
     <div className="bg-[#6A7339] w-screen">
-      <div className="flex flex-col pt-12 pb-12 items-center lg:w-full mx-auto gap-8">
-        <div className="text-[#E0C9AC] lg:px-12 sm:px-8 space-y-8 flex flex-col items-center lg:items-start pt-0">
+      <div className="flex flex-col pt-12 pb-12 items-center lg:w-full mx-auto gap-10">
+        <div className="text-[#E0C9AC] lg:px-12 sm:px-4 space-y-8 flex flex-col items-center lg:items-start pt-0">
 
           {/* Section 1 */}
-          <div className="flex flex-col gap-8">
-            {splitIntoRows(section1Cards).map((row, rowIndex) => (
-              <div
-                key={`section1-row-${rowIndex}`}
-                className="flex justify-center gap-8"
-                style={{ flexWrap: 'wrap' }}
-              >
-                {row}
-              </div>
-            ))}
-          </div>
+<div className="w-full flex justify-center">
+  <div className="border-2 border-[#FAF5F0] rounded-full px-6 py-3">
+    <h1 className="gabarito-bigger text-center text-[#FAF5F0]">RATTAN SETS</h1>
+  </div>
+</div>
+<div className="flex flex-col gap-10">
+  {splitIntoRows(section1Cards).map((row, rowIndex) => (
+    <div
+      key={`section1-row-${rowIndex}`}
+      className="flex justify-center gap-10"
+      style={{ flexWrap: 'wrap' }}
+    >
+      {row}
+    </div>
+  ))}
+</div>
 
-          {/* Section 2 */}
-          <div className="flex flex-col gap-8 items-center mx-auto">
-            {splitIntoRows(section2Cards).map((row, rowIndex) => (
-              <div
-                key={`section2-row-${rowIndex}`}
-                className="flex justify-center gap-8"
-                style={{ flexWrap: 'wrap' }}
-              >
-                {row}
-              </div>
-            ))}
-          </div>
+{/* Section 2 */}
+<div className="w-full flex justify-center">
+  <div className="border-2 border-[#FAF5F0] rounded-full px-6 py-3">
+    <h1 className="gabarito-bigger text-center text-[#FAF5F0]">BOXED SETS</h1>
+  </div>
+</div>
+<div className="flex flex-col gap-10 items-center mx-auto">
+  {splitIntoRows(section2Cards).map((row, rowIndex) => (
+    <div
+      key={`section2-row-${rowIndex}`}
+      className="flex justify-center gap-10"
+      style={{ flexWrap: 'wrap' }}
+    >
+      {row}
+    </div>
+  ))}
+</div>
 
+{/* Section 3 */}
+<div className="w-full flex justify-center">
+  <div className=" border-2 border-[#FAF5F0] rounded-full px-6 py-3">
+    <h1 className="gabarito-bigger text-center  text-[#FAF5F0]">BOTTLED LAMBANOG</h1>
+  </div>
+</div>
+<div className="flex flex-col gap-10">
+  {splitIntoRows(section3Cards).map((row, rowIndex) => (
+    <div
+      key={`section3-row-${rowIndex}`}
+      className="flex justify-center gap-10"
+      style={{ flexWrap: 'wrap' }}
+    >
+      {row}
+    </div>
+  ))}
+</div>
 
-          {/* Section 3 */}
-          <div className="flex flex-col gap-8">
-            {splitIntoRows(section3Cards).map((row, rowIndex) => (
-              <div
-                key={`section3-row-${rowIndex}`}
-                className="flex justify-center gap-8"
-                style={{ flexWrap: 'wrap' }}
-              >
-                {row}
-              </div>
-            ))}
-          </div>
         </div>
       </div>
     </div>

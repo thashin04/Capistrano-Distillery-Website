@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import './index.css';
 import "animate.css/animate.compat.css";
 import FlipCard from './FlipCard';
@@ -111,10 +112,12 @@ const Product = () => {
         </Slider>
       </div>
       </div>
-      <div className="w-full justify-center lg:justify-end flex flex-col pt-12 pb-12 items-center lg:w-full mx-auto mb-8 gap-8">
+      <div className="w-full justify-center lg:justify-end flex flex-col pt-12 pb-12 items-center lg:w-full mx-auto gap-8">
+      <Link to="/Products">
             <button className="duration-300 text-[#FAF5F0] gabarito-regular border border-[#FAF5F0] py-2 px-4 rounded-md hover:bg-[#FAF5F0] hover:text-[#3F3D35]">
               SEE ALL PRODUCTS →
             </button>
+      </Link>
           </div>
     </div>
   );
