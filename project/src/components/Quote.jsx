@@ -17,7 +17,7 @@ const BestSpiritBanner = () => {
             rel="noopener noreferrer"
             className="underline"
           >
-            — TasteAtlas
+            -- TasteAtlas
           </a>
         </span>
       </p>
