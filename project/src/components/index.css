@@ -130,7 +130,54 @@ video {
     background-color: #E0C9AC;
     color: #382828;
   }
-
+.partner-card {
+    width: 16rem;
+    height: 20rem;
+    perspective: 1000px;
+    margin: auto;
+  }
+  .partner-card-front{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .partner-card-front {
+    background-color: #E0C9AC;
+    color: #382828;
+  }
+  .customer-card {
+    width: 16rem; 
+    height: 16rem; 
+    margin: auto;
+    background-color: #FFFFFF; 
+    border-radius: 1rem; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06); /* Subtle shadow */
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .customer-card-front {
+    padding: 1rem; 
+    font-family: 'Dongle', sans-serif; 
+    font-size: x-large; 
+    text-align: center; 
+    color: #333333; 
+    line-height: 1.5; 
+    white-space: normal; 
+  }
+  
+  
+  .customer-card-front {
+    background-color: #fff;
+    color: #382828;
+  }
   
 .slick-prev, .slick-next {
   top: 50%; /* Center vertically */
@@ -164,6 +211,18 @@ video {
   margin-bottom: 3rem;
   border-radius:100px;
 }
+.card-container {
+  transform: scale(1); /* Default size */
+  transition: transform 0.3s ease-in-out; /* Smooth hover animation */
+  overflow: hidden; /* Prevent content from overflowing */
+  border-radius: 16px; /* Rounded corners for the card */
+}
+
+.card-container:hover {
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+
 
 
 @media screen and (min-width:1050px) {
@@ -285,6 +344,30 @@ video {
     font-weight:bold;
     font-style: normal;
   }
+  .flip-card {
+    width: 13rem;
+    height: 19rem;
+    perspective: 1000px;
+    margin: auto;
+  }
+  .partner-card {
+    width: 17rem;
+    height: 20rem;
+    perspective: 1000px;
+    margin: auto;
+  }
+  .customer-card {
+    width: 12rem; 
+    height: 12rem; 
+    margin: auto;
+    background-color: #FFFFFF; 
+    border-radius: 1rem; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06); /* Subtle shadow */
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+  }
+
 }
 
 

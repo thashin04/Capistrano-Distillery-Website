@@ -57,13 +57,13 @@ function PartnerCarousel() {
   };
 
   return (
-    <div className="bg-[#F0ECE1] w-full m-0 pb-16 pt-8">
+    <div className="bg-[#F0ECE1] w-full  m-0 pb-16 pt-8">
       <style>{"\
         .slick-dots{\
           transform: translateY(10px);\
         }\
       "}</style>
-      <div className="w-3/4 mx-auto">
+      <div className="w-3/4 mx-auto ">
   <Slider {...settings}>
     {data.map((d) => (
       <div
