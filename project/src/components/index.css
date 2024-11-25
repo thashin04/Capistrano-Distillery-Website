@@ -45,7 +45,6 @@ body{
 
 .gabarito-header {
   font-family: 'Gabarito', sans-serif;
-  font-optical-sizing: auto;
   font-weight: bold;
   font-style: normal;
 }
@@ -187,9 +186,9 @@ video {
 @media screen and (max-width:850px) {
   .gabarito-small {
     font-family: 'Gabarito', sans-serif;
-    font-size:larger;
+    font-size:large;
     font-weight:bold;
-    font-style: normal;
+    font-style: large;
   }
   .dongle-small {
     font-family: 'Dongle', serif;
@@ -248,15 +247,43 @@ video {
   }
   .gabarito-regular {
     font-family: 'Gabarito', sans-serif;
-    font-size: large;
+    font-size: larger;
     font-weight: normal;
     font-style: normal;
   }
-  .dongle-regular {
+
+  .dongle-bold {
     font-family: 'Dongle', serif;
-    font-weight: 400;
+    font-weight:bolder;
     font-style: normal;
-    font-size: large;
+    font-size: 36px;
+  }
+  .gabarito-bigger {
+    font-family: 'Gabarito', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: xx-large;
+  }
+  .gabarito-big {
+    font-family: 'Gabarito', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: x-large;
+  }
+  
+  .gabarito-regular {
+    font-family: 'Gabarito', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+  }
+  .gabarito-small {
+    font-family: 'Gabarito', sans-serif;
+    font-size:xx-large;
+    font-weight:bold;
+    font-style: normal;
   }
 }
 

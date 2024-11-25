@@ -57,38 +57,39 @@ function PartnerCarousel() {
   };
 
   return (
-    <div className="bg-[#F0ECE1] w-full m-0 pb-12">
+    <div className="bg-[#F0ECE1] w-full m-0 pb-16 pt-8">
       <style>{"\
         .slick-dots{\
-          transform: translateY(-10px);\
+          transform: translateY(10px);\
         }\
       "}</style>
       <div className="w-3/4 mx-auto">
-        <Slider {...settings}>
-          {data.map((d) => (
-            <div
-              key={d.name}
-              className="mt-20 mb-14 flex justify-center items-center"
-            >
-              <div className="">
-                <a 
-                  href={d.link} 
-                  target="_blank" 
-                  rel="noopener noreferrer" 
-                  className="dongle-regular"
-                >
-                  <img 
-                    src={d.image} 
-                    alt={`Partner ${d.name}`} 
-                    className="rounded-2xl max-md:w-2/3 md:w-3/4 lg:w-3/4" 
-                    style={{ height: "auto", objectFit: "cover", margin: "auto" }}
-                  />
-                </a>
-              </div>
-            </div>
-          ))}
-        </Slider>
+  <Slider {...settings}>
+    {data.map((d) => (
+      <div
+        key={d.name}
+        className="flex justify-center items-center"
+      >
+        <div className="h-auto"> {/* Adjusted */}
+          <a 
+            href={d.link} 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="dongle-regular"
+          >
+            <img 
+              src={d.image} 
+              alt={`Partner ${d.name}`} 
+              className="rounded-2xl max-md:w-2/3 md:w-3/4 lg:w-3/4" 
+              style={{ height: "auto", objectFit: "cover", margin: "auto" }}
+            />
+          </a>
+        </div>
       </div>
+    ))}
+  </Slider>
+</div>
+
     </div>
   );
 }

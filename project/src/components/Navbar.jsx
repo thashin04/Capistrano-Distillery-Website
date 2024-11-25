@@ -31,7 +31,7 @@ const Navbar = () => {
         <Link to="/">CAPISTRANO DISTILLERY</Link>
       </h1>
 
-      <ul className='dongle-regular dongle-small hidden md:flex'>
+      <ul className='dongle-small dongle-regular hidden md:flex'>
         {navItems.map((item, index) => (
           <li
             key={item.id}

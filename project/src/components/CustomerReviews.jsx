@@ -75,7 +75,7 @@ const CustomerReviews = () => {
       <div className="flex flex-col pt-12 pb-0 items-center mx-auto mt-8 gap-8">
         {/* Customer Reviews Header */}
         <div className="text-[#FAF5F0] w-3/4 mx-auto space-y-8 flex flex-col pt-0">
-          <h1 className="gabarito-header lg:text-left text-center text-5xl font-bold max-sm:text-3xl">
+          <h1 className="gabarito-header lg:text-left text-center text-5xl font-bold max-sm:text-4xl">
             CUSTOMER REVIEWS
           </h1>
         </div>
