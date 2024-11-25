@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/UX-Project/static/css/main.401e5bfc.css",
+    "main.js": "/UX-Project/static/js/main.02e0512d.js",
+    "static/media/landvid.mp4": "/UX-Project/static/media/landvid.4a655febeb6dff21687b.mp4",
+    "static/media/ProductBanner.png": "/UX-Project/static/media/ProductBanner.deeb03d02c9ef21d4d9d.png",
+    "static/media/landing.png": "/UX-Project/static/media/landing.eddd8054e2f2194ca3c7.png",
+    "static/media/HistoryPhoto.png": "/UX-Project/static/media/HistoryPhoto.a810c4a571f34f158ee1.png",
+    "static/media/AboutBanner.png": "/UX-Project/static/media/AboutBanner.468100f5e216fadcac3d.png",
+    "static/media/HomeProd2.png": "/UX-Project/static/media/HomeProd2.6265a64783e5f27d0494.png",
+    "static/media/BackgroundPhoto.png": "/UX-Project/static/media/BackgroundPhoto.e53b80c3eee70939de02.png",
+    "static/media/HomeProd3.png": "/UX-Project/static/media/HomeProd3.bcd24bdcc7dbf5cde334.png",
+    "static/media/logo1.png": "/UX-Project/static/media/logo1.d67e94d89f98bffbaa22.png",
+    "static/media/logo5.png": "/UX-Project/static/media/logo5.c6f0b3d40971adb18ad1.png",
+    "static/media/HomeBackProd1.png": "/UX-Project/static/media/HomeBackProd1.9ad457b64f48bfd67903.png",
+    "static/media/logo4.png": "/UX-Project/static/media/logo4.b60ff66c4d1c14054b4a.png",
+    "static/media/HomeBackProd3.png": "/UX-Project/static/media/HomeBackProd3.867eddcb89e0b495cca3.png",
+    "static/media/HomeBackProd2.png": "/UX-Project/static/media/HomeBackProd2.441199511f3652d60137.png",
+    "static/media/logo2.png": "/UX-Project/static/media/logo2.d397d84098aec933ca3c.png",
+    "static/media/logo3.png": "/UX-Project/static/media/logo3.a29d58528c32c1fc5170.png",
+    "static/media/logo6.png": "/UX-Project/static/media/logo6.bd83717e6b4452824a2b.png",
+    "static/media/HomeProd1.jpg": "/UX-Project/static/media/HomeProd1.9f200a0e7761e5d5e478.jpg",
+    "static/media/logo7.png": "/UX-Project/static/media/logo7.81dbcdfe2db9fb21ae74.png",
+    "static/media/AboutPlaceholder.png": "/UX-Project/static/media/AboutPlaceholder.54a17108f2f0c1570e72.png",
+    "static/media/logo8.png": "/UX-Project/static/media/logo8.95e336ee89cb62e0ffa9.png",
+    "static/media/slick.svg": "/UX-Project/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/UX-Project/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/UX-Project/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/UX-Project/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/UX-Project/index.html",
+    "main.401e5bfc.css.map": "/UX-Project/static/css/main.401e5bfc.css.map",
+    "main.02e0512d.js.map": "/UX-Project/static/js/main.02e0512d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.401e5bfc.css",
+    "static/js/main.02e0512d.js"
+  ]
+}
