@@ -244,13 +244,13 @@ video {
     font-family: 'Dongle', serif;
     font-weight: 400;
     font-style: normal;
-    font-size: xx-large;
+    font-size: x-large;
   }
   .dongle-footer {
     font-family: 'Dongle', serif;
     font-weight:lighter;
     font-style: normal;
-    font-size: xx-large;
+    font-size: x-large;
   }
 }
 @media screen and (min-width: 2000px) {
@@ -272,11 +272,18 @@ video {
   .rotate-y-180 {
     transform: rotateY(180deg);
   }
+
   .dongle-regular {
     font-family: 'Dongle', serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 40px;
+    font-size: xx-large;
+  }
+  .dongle-footer {
+    font-family: 'Dongle', serif;
+    font-weight:lighter;
+    font-style: normal;
+    font-size: xx-large;
   }
 }
 @media screen and(max-width:2000px) {

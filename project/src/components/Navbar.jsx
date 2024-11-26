@@ -25,13 +25,13 @@ const Navbar = () => {
   ];
 
   return (
-    <div className='bg-[#BBC191] z-50 sticky top-0 flex justify-between items-center h-24 xl:h-32 2xl:h-40 w-full mx-auto px-4 text-[#E0C9AC]'>
+    <div className='bg-[#BBC191] z-50 sticky top-0 flex justify-between items-center h-24 2xl:h-32 w-full mx-auto px-4 text-[#E0C9AC]'>
       {/* Logo */}
-      <h1 className='gabarito-normal gabarito-small pr-8 w-full text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl font-bold text-[#382828]'>
+      <h1 className='gabarito-normal gabarito-small pr-8 w-full text-2xl lg:text-3xl 2xl:text-4xl font-bold text-[#382828]'>
         <Link to="/">CAPISTRANO DISTILLERY</Link>
       </h1>
 
-      <ul className='dongle-small dongle-regular lg:text-2xl xl:text-3xl 2xl:text-4xl hidden md:flex'>
+      <ul className='dongle-small dongle-regular lg:text-2xl 2xl:text-3xl hidden md:flex'>
         {navItems.map((item, index) => (
           <li
             key={item.id}

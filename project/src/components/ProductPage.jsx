@@ -92,7 +92,7 @@ const ProductPage = () => {
         <div className="text-[#E0C9AC] lg:px-12 sm:px-4 space-y-8 flex flex-col items-center lg:items-start pt-0">
 
           {/* Section 1 */}
-          <div className="w-full flex py-4 justify-center">
+          <div className="w-full flex py-9 justify-center">
             <div className="border-2 border-[#FAF5F0] rounded-full px-6 py-3">
               <h1 className="gabarito-bigger text-center text-[#FAF5F0]">RATTAN SETS</h1>
             </div>
@@ -110,7 +110,7 @@ const ProductPage = () => {
           </div>
 
           {/* Section 2 */}
-          <div className="w-full flex py-4 justify-center">
+          <div className="w-full flex py-9 justify-center">
             <div className="border-2 border-[#FAF5F0] rounded-full px-6 py-3">
               <h1 className="gabarito-bigger text-center text-[#FAF5F0]">BOXED SETS</h1>
             </div>
@@ -133,7 +133,7 @@ const ProductPage = () => {
               <h1 className="gabarito-bigger text-center  text-[#FAF5F0]">BOTTLED LAMBANOG</h1>
             </div>
           </div>
-          <div className="flex flex-col gap-10">
+          <div className="flex pb-8 flex-col gap-10">
             {splitIntoRows(generateCards(section3Data, 'section3')).map((row, rowIndex) => (
               <div
                 key={`section3-row-${rowIndex}`}
