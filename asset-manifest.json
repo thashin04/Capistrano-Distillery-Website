@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.4b9432a1.css",
-    "main.js": "/static/js/main.75ba0914.js",
+    "main.js": "/static/js/main.8e8d3c18.js",
     "static/media/landvid.mp4": "/static/media/landvid.4a655febeb6dff21687b.mp4",
     "static/media/ProductBanner.png": "/static/media/ProductBanner.deeb03d02c9ef21d4d9d.png",
     "static/media/landing.png": "/static/media/landing.eddd8054e2f2194ca3c7.png",
@@ -49,10 +49,10 @@
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
     "main.4b9432a1.css.map": "/static/css/main.4b9432a1.css.map",
-    "main.75ba0914.js.map": "/static/js/main.75ba0914.js.map"
+    "main.8e8d3c18.js.map": "/static/js/main.8e8d3c18.js.map"
   },
   "entrypoints": [
     "static/css/main.4b9432a1.css",
-    "static/js/main.75ba0914.js"
+    "static/js/main.8e8d3c18.js"
   ]
 }
