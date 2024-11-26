@@ -62,29 +62,41 @@ const Navbar = () => {
       </div>
 
       {/* Mobile Nav */}
-      <ul
-        className={`fixed md:hidden top-0 left-0 h-full w-[60%] bg-[#BBC191] border-r text-[#382828] ease-in-out duration-500 transform ${
-          nav ? 'translate-x-0' : '-translate-x-full'
-        }`}
-      >
-        <h1 className='gabarito-header w-full text-2xl font-bold text-[#382828] m-4'>CAPISTRANO DISTILLERY</h1>
+<ul
+  className={`fixed md:hidden top-0 left-0 h-full w-[60%] bg-[#BBC191] border-r text-[#382828] ease-in-out duration-500 transform ${
+    nav ? 'translate-x-0' : '-translate-x-full'
+  }`}
+>
+  <h1 className='gabarito-header w-full text-2xl font-bold text-[#382828] m-4'>CAPISTRANO DISTILLERY</h1>
 
-        {/* Mobile Nav Text */}
-        {navItems.map(item => (
-          <li key={item.id} className='dongle-regular dongle-small'>
+      {/* Mobile Nav Text */}
+      {navItems.map(item => (
+        <li key={item.id} className='dongle-regular dongle-small'>
+          {item.path ? (
+            <Link
+              to={item.path}
+              onClick={() => {
+                handleNav();
+              }}
+              className='max-lg:text-2xl block w-full p-4 px-7 text-left hover:bg-[#6A7339] text-[#382828] hover:text-[#E0C9AC] duration-300 cursor-pointer'
+            >
+              {item.text}
+            </Link>
+          ) : (
             <a
-              href={item.path ? item.path : item.href}
+              href={item.href}
               target={item.id > 3 ? "_blank" : "_self"}
               rel={item.id > 3 ? "noopener noreferrer" : undefined}
-              onClick={handleNav} 
+              onClick={handleNav}
               className='max-lg:text-2xl block w-full p-4 px-7 text-left hover:bg-[#6A7339] text-[#382828] hover:text-[#E0C9AC] duration-300 cursor-pointer'
             >
               {item.text}
             </a>
-          </li>
-        ))}
+          )}
+        </li>
+      ))}
+    </ul>
 
-      </ul>
     </div>
   );
 };
