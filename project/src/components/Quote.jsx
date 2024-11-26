@@ -7,7 +7,7 @@ const BestSpiritBanner = () => {
       className="flex justify-center items-center bg-[#6A7339] border-green border-[#BBC191]"
       style={{ fontFamily: 'Gabarito, sans-serif' }}
     >
-      <p className="lg:text-5xl md:text-4xl sm:text-3xl max-sm:text-xl leading-normal font-bold text-[#FAF5F0] text-center gabarito-header">
+      <p className="lg:text-5xl md:text-4xl sm:text-3xl 2xl:text-6xl max-sm:text-xl leading-normal font-bold text-[#FAF5F0] text-center gabarito-header">
         VOTED THE 2ND BEST <br />  SPIRIT IN THE WORLD
         <br />
         <span className="text-white gabarito-header lg:text-3xl md:text-2xl sm:text-xl w-full flex justify-end mt-2 pr-4 lg:translate-x-32 md:translate-x-26 sm:translate-x-28 max-sm:translate-x-12 max-sm:text-base">

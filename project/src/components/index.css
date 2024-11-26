@@ -152,8 +152,8 @@ video {
     color: #382828;
   }
   .customer-card {
-    width: 16rem; 
-    height: 16rem; 
+    width: 18rem; 
+    height: 18rem; 
     margin: auto;
     background-color: #FFFFFF; 
     border-radius: 1rem; 
@@ -232,6 +232,66 @@ video {
   .flip-card:hover .flip-card-inner {
     transform: rotateY(180deg);
   }
+  .dongle-regular {
+    font-family: 'Dongle', serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: x-large;
+  }
+}
+@media screen and (min-width: 1250px) {
+  .dongle-regular {
+    font-family: 'Dongle', serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: xx-large;
+  }
+  .dongle-footer {
+    font-family: 'Dongle', serif;
+    font-weight:lighter;
+    font-style: normal;
+    font-size: xx-large;
+  }
+}
+@media screen and (min-width: 2000px) {
+  .customer-card {
+    width: 22rem; 
+    height: 22rem; 
+    margin: auto;
+    background-color: #FFFFFF; 
+    border-radius: 1rem; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06); /* Subtle shadow */
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+  }
+  .flip-card-front,
+  .flip-card-back {
+  cursor:pointer;
+}
+  .rotate-y-180 {
+    transform: rotateY(180deg);
+  }
+  .dongle-regular {
+    font-family: 'Dongle', serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+  }
+}
+@media screen and(max-width:2000px) {
+  .customer-card {
+    width: 22rem; 
+    height: 22rem; 
+    margin: auto;
+    background-color: #FFFFFF; 
+    border-radius: 1rem; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06); /* Subtle shadow */
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+  }
+  
 }
 @media screen and (max-width:2560px) {
   .flip-card-front,

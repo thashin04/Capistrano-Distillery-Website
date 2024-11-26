@@ -6,10 +6,10 @@ const AboutDescription = () => {
   return (
     <div className="text-[#E0C9AC] flex flex-col lg:flex-row items-center justify-center gap-8 pt-12 pb-12 mx-auto lg:w-3/4 mt-8">
       <div className="flex flex-col gap-8 lg:max-w-[50%]">
-        <h1 className="pb-4 text-5xl font-bold gabarito-header text-center lg:text-left max-sm:text-4xl  md:pb-4">
+        <h1 className="pb-4 text-5xl 2xl:text-6xl font-bold gabarito-header text-center lg:text-left max-sm:text-4xl  md:pb-4">
           BACKGROUND
         </h1>
-        <p className="dongle-regular mr-7 max-lg:max-w-md text-left max-lg:mx-14">
+        <p className="dongle-regular mr-7 max-lg:max-w-md text-left max-lg:mx-14 2xl:text-3xl">
           Lambanog is a traditional and local Filipino distilled palm liquor. It is an alcoholic drink produced from distilling coconut sap (tuba). When consumed responsibly, it is not considered harmful to health, as it is a pure and natural product with no chemicals added. However, excessive alcohol consumption is detrimental to the body and should be avoided. <br /> <br /> Lambanog is not only popular in the Philippines but has also gained acceptance in Europe and other Asian countries through various promotional activities abroad. Due to its market potential, there are plans to expand the export of Lambanog-based products in the future.
         </p>
       </div>

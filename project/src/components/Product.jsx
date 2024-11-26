@@ -80,7 +80,7 @@ const Product = () => {
     <div className="bg-[#6A7339] w-screen"> 
       <div className="flex flex-col pt-12 pb-0 items-center lg:w-full mx-auto mt-8 gap-8">
         <div className="text-[#FAF5F0] lg:px-12 sm:px-8 space-y-8 flex flex-col items-center lg:items-start pt-0">
-          <h1 className="gabarito-header text-center lg:text-left max-sm:text-3xl text-5xl font-bold">OUR PRODUCTS</h1>
+          <h1 className="gabarito-header text-center lg:text-left max-sm:text-3xl text-5xl 2xl:text-6xl font-bold">OUR PRODUCTS</h1>
           <div className="max-lg:hidden flex flex-col lg:flex-row justify-center items-center w-full px-8 lg:px-0 md:pt-8 pb-8 gap-12">
             {data.map((product, index) => (
               <div key={index} className="w-full lg:w-auto flex flex-col items-center card-hover">
@@ -88,7 +88,7 @@ const Product = () => {
                   frontImage={product.image} 
                   backImage={product.backImage} 
                 />
-                <p className="text-[#FAF5F0] text-lg mt-4 gabarito-regular">{product.name}</p>
+                <p className="text-[#FAF5F0] text-lg lg:text-xl 2xl:text-2xl mt-4 gabarito-regular">{product.name}</p>
               </div>
             ))}
           </div>
@@ -114,7 +114,7 @@ const Product = () => {
                       frontImage={d.image} 
                       backImage={d.backImage} 
                     />
-                    <p className="text-[#FAF5F0] max-md:w-32 text-center text-lg mt-4 gabarito-regular">{d.name}</p>
+                    <p className="text-[#FAF5F0] w-32 text-center text-lg mt-4 gabarito-regular">{d.name}</p>
                   </div>
                 </div>
               </div>
@@ -122,7 +122,7 @@ const Product = () => {
           </Slider>
         </div>
       </div>
-      <div className="w-full justify-center lg:justify-end flex flex-col pt-8 max-lg:pt-16 pb-16 items-center lg:w-full mx-auto gap-8">
+      <div className="justify-center lg:justify-end flex flex-col pt-8 max-lg:pt-16 pb-16 items-center lg:w-full mx-auto gap-8">
         <Link to="/Products">
           <button className="duration-300 text-[#FAF5F0] gabarito-regular border border-[#FAF5F0] py-2 px-4 rounded-md hover:bg-[#FAF5F0] hover:text-[#3F3D35]">
             SEE ALL PRODUCTS →

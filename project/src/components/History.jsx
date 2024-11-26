@@ -11,7 +11,7 @@ const History = () => {
     <div className="bg-[#6A7339] w-screen"> 
     <div className="text-[#FAF5F0] flex flex-col lg:flex-row items-center justify-center gap-8 pt-12 pb-12 mx-auto lg:w-3/4 mt-8">
       <div className="flex flex-col gap-8 lg:max-w-[50%]">
-        <h1 className="pb-4 text-5xl font-bold gabarito-header text-center lg:text-left max-sm:text-4xl  md:pb-4">
+        <h1 className="pb-4 text-5xl font-bold gabarito-header text-center lg:text-left max-sm:text-4xl  md:pb-4 2xl:text-6xl ">
         HISTORY
         </h1>
         <p className="dongle-regular mr-7 max-lg:max-w-md text-left max-lg:mx-14">

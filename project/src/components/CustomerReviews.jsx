@@ -80,20 +80,20 @@ const CustomerReviews = () => {
       <div className="flex flex-col pt-12 pb-0 items-center mx-auto gap-8">
         {/* Header */}
         <div className="text-[#FAF5F0] w-3/4 mx-auto space-y-8 flex flex-col pt-0">
-          <h1 className="gabarito-header lg:text-left text-center text-5xl font-bold max-sm:text-4xl">
+          <h1 className="gabarito-header lg:text-left text-center text-5xl font-bold max-sm:text-4xl 2xl:text-6xl ">
             CUSTOMER REVIEWS
           </h1>
         </div>
         
         {/* Content */}
-        <div className="w-3/4 mx-auto max-sm:-translate-y-10">
+        <div className="w-3/4 2xl:w-7/12 mx-auto max-sm:-translate-y-10">
           {isSmallScreen ? (
             // Render the carousel for small screens
             <Slider {...settings}>
               {data.map((d) => (
                 <div
                   key={d.name}
-                  className="mt-20 mb-14 flex justify-center items-center"
+                  className="mt-12 mb-14 flex justify-center items-center"
                 >
                   <div className="customer-card">
                     <div className="customer-card-front dongle-regular max-sm:text-xl">
