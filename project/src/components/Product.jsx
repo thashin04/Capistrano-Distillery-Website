@@ -114,7 +114,7 @@ const Product = () => {
                       frontImage={d.image} 
                       backImage={d.backImage} 
                     />
-                    <p className="text-[#FAF5F0] w-32 text-center text-lg mt-4 gabarito-regular">{d.name}</p>
+                    <p className="text-[#FAF5F0] w-36 text-center text-lg mt-4 gabarito-regular">{d.name}</p>
                   </div>
                 </div>
               </div>
