@@ -35,8 +35,8 @@ const Navbar = () => {
         {navItems.map((item, index) => (
           <li
             key={item.id}
-            className={`py-1 px-5 rounded-xl my-2 mx-1 max-md: whitespace-nowrap cursor-pointer duration-300 ${
-              index > 2 ? 'bg-[#382828] lg:mx-2 hover:bg-[#724F54]' : ''
+            className={`py-1 px-5 2xl:py-2 2xl:px-6 rounded-xl my-2 mx-1 max-md: whitespace-nowrap cursor-pointer duration-300 ${
+              index > 2 ? 'bg-[#382828] lg:mx-2 xl:mx-3 hover:bg-[#724F54]' : ''
             } ${index < 3 ? 'lg:px-5 md:px-2 px-1 bg-[#BBC191] hover:underline text-[#382828]' : 'text-[#FAF5F0]'}
             `}
           >
